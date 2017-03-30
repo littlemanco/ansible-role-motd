@@ -4,9 +4,10 @@ Hey! Welcome to {{ ansible_hostname }}. Before you go further, there is
 probably a better way to do what you're trying to do. Check out the
 following:
 
-  → Server configuration is managed by Ansible. Check out:
-    https://github.com/andrewhowdencom/ansible-playbook-server/
-  →
+{% for item in motd_urls %}
+  → {{ item.message }}
+      {{ item.url }}
+{% endfor %}
 
 If you are unable to fix what you need with the above, rather than
 read or modify the server now, please lodge a ticket with sysadmin.
