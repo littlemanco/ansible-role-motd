@@ -46,3 +46,10 @@ motd_urls:
 ```
 
 That's it!
+
+## Contact
+
+| Type     | Address                       |
+|----------|-------------------------------|
+| Contact: | hello@andrewhowden.com        |
+| Web:     | https://www.andrewhowden.com/ |
